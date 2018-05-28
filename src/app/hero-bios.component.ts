@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { LoggerService } from './logger.service';
 import { HeroService } from './hero.service';
 
+// 英雄简历列表
 @Component({
     selector: 'app-hero-bios',
     templateUrl: './hero-bios.component.html',

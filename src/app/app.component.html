@@ -1,3 +1,16 @@
-
+<h2>多个服务实例(sandboxing)</h2>
 <app-hero-bios></app-hero-bios>
-<h3>使用@Optional()和 @Host() 装饰器来限定依赖查找方式</h3>
+
+<h2 appHighLight>使用@Optional()和 @Host() 装饰器来限定依赖查找方式</h2>
+<app-hero-bios-contacts></app-hero-bios-contacts>
+
+<h2>使用提供商来定义依赖</h2>
+<app-hero-of-the-month></app-hero-of-the-month>
+
+<h2>注入到派生类</h2>
+<h4>当编写一个继承自另一个组件的组件时，要格外小心。</h4>
+<h4>如果基础组件有依赖注入，必须要在派生类中重新提供和重新注入它们，并将它们通过构造函数传给基类。</h4>
+<p>未排序</p>
+<app-unsorted-heroes></app-unsorted-heroes>
+<p>排序</p>
+<app-sorted-heroes></app-sorted-heroes>

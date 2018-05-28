@@ -7,10 +7,16 @@ import { AppComponent } from './app.component';
 import { HeroBiosComponent } from './hero-bios.component';
 import { HeroBioComponent } from './hero-bio.component';
 import { HighLightDirective } from './highlight.directive';
+import { HeroBiosContactsComponent } from './hero-bios-contacts.component';
+import { HeroContactComponent } from './hero-contact.component';
+import { HeroOfTheMonthComponent } from './hero-of-the-month.component';
+import { HeroesBaseComponent, SortedHeroesComponent } from './sorted-heroes.component';
 
 const declarations: Type<any>[] = [
   AppComponent,
-  HeroBiosComponent, HeroBioComponent,
+  HeroBiosComponent, HeroBiosContactsComponent, HeroBioComponent, HeroContactComponent,
+  HeroOfTheMonthComponent,
+  HeroesBaseComponent, SortedHeroesComponent,
   HighLightDirective
 ];
 
