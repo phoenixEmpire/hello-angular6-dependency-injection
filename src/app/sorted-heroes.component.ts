@@ -29,7 +29,7 @@ export class HeroesBaseComponent implements OnInit {
 // 带排序的英雄列表组件
 @Component({
     selector: 'app-sorted-heroes',
-    template: `{{aaa}}
+    template: `
         <div *ngFor="let hero of heroes">
             {{hero.name}}
         </div>
